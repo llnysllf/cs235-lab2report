@@ -54,12 +54,14 @@ def get_factorial(value: int):
     factorial = list_values.prod()
     return factorial
 def get_rand():
+    return random.randint()
     '''Returns a random integer.'''
     """TODO: Add your code here 
         Hint: Using random.randint() function.
-    """
     my_randint = 0
     return my_randint
+    """
+
 def toss_coin():
     '''Return either Head or Tail'''
     """TODO: Add your code here
